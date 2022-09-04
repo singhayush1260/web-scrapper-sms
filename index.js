@@ -27,7 +27,7 @@ async function scrapeData()
         client.messages.create({
             body:`The price of ${product.name} went below ${p}. But at ${product.link}`,
             from:'+19793785300',
-            to:'+917985701301'
+            to:'+9179****301'
         }).then((msg)=>{
             console.log(msg)
         }).catch((err)=>{
